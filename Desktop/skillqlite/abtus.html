@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Meth :p</title>
+    <style>
+        .header{
+          text-align: center;
+          margin: 50px;
+          padding: 20px;
+        }
+        .container{
+          display: inline-flex;
+          margin: 50px 20%;
+          padding: 20px 30px;
+          justify-content: center;
+        }
+        .maths{
+          display: flex;
+          justify-content: center;
+          padding: 100px;
+          margin-right: 20px;
+        }
+        .results{
+          margin-left: 200px;
+        }
+      </style>
+</head>
+
+<body>  
+  <header class="header">
+    <h1>
+      Add, Subtract, Multiply and Divide.
+    </h1>
+    <p>
+      <i>
+        Just insert the numbers you want to add, subtract, multiply or divide in ther spective orders in the boxes below and click on espective box which represents your desired operator.
+      </i>
+    </p>
+  </header>
+    <div class="container">
+      <div class="inputs">
+        <label for="first">Num1:</label>
+        <input type="number" id="first" placeholder="Please enter the first number">
+        <label for="second">Num2:</label>
+        <input type="number" id="second" placeholder="Please enter the second number">
+      </div>
+        <div class="results">
+        <label for="result">Result:</label>
+        <input type="text" id="result" disabled>
+      </div>
+    </div>
+    <div class="maths">
+      <button id="add">Addition</button>
+      <button id="sub">Subtract</button>
+      <button id="mul">Multiply</button>
+      <button id="div">Divide</button>
+    </div>
+<script src="index.js"></script>
+</body>
+</html>
